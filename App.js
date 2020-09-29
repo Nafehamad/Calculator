@@ -4,7 +4,6 @@ const rl = readline.createInterface({ //creating an instance of readline
     output: process.stdout // configuring the writable streams
 });
 
-
 console.log('\nPlease select required operation:\n For Addition Please Enter +\n For Subtraction Please Enter - \n For Multiplication Please Enter * \n For Division Please Enter / \n');
 
 rl.question(" What is your operation ? ", function(operation) {
